@@ -4,7 +4,7 @@ var jsonParser = bodyParser.json();
 var express = require('express');
 var app = express();
 var dbName = 'adminstatedb';
-var conStringDb = "postgres://postgres:welcometohell49@localhost/" + dbName;
+var conStringDb = "postgres://postgres:#########@localhost/" + dbName;
 
 var queryError = function(err, query, res, responseHandler, result) {
     if(err) {
